@@ -1,19 +1,18 @@
 #Slack Config
 team_name = ''
-bot_name = ''
+bot_name = "latex"
 API_TOKEN = ""
 cookie = ''
 fontname = "DejaVuSerif.ttf"
 DEFAULT_REPLY = "Sorry but I didn't understand you"
-ERRORS_TO = 'username'
-PLUGINS = []
+PLUGINS = ['texbot.plugins']
 
 
 #latex config
-command = "/tex"
-webhook_url = ""
-png = "/usr/bin/dvipng"
-tex = "/usr/bin/latex"
-template = "pathToTemplate"
-
-
+tex = "/usr/bin/pdflatex"
+pdfCrop = "/usr/bin/pdfcrop"
+poppler = "/usr/bin/pdftoppm"
+pnmtopng = "/usr/bin/pnmtopng"
+template = "/root/PySlackTexBot/template.tex"
+imageDir = "/root/PySlackTexBot/sent/"
+imgurClientId = "c0980f6e1afa27c"
