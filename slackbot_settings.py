@@ -2,7 +2,6 @@
 team_name = ''
 bot_name = "latex"
 API_TOKEN = ""
-cookie = ''
 fontname = "DejaVuSerif.ttf"
 DEFAULT_REPLY = "Sorry but I didn't understand you"
 PLUGINS = ['texbot.plugins']
